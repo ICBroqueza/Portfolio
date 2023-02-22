@@ -1,6 +1,6 @@
 import React from 'react';
 import GitHub from '@mui/icons-material/GitHub';
-import { FacebookOutlined, LinkedIn, Twitter } from '@mui/icons-material';
+import { FacebookOutlined, LinkedIn, Menu, Twitter } from '@mui/icons-material';
 
 export default function Home() {
   return (
