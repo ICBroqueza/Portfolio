@@ -5,7 +5,6 @@ import Nav from './components/Nav';
 import Navbar from './components/Navbar';
 import ProjectLists from './components/ProjectLists';
 import Techs from './components/Techs';
-
 function App() {
   return (
     <div className='App'>

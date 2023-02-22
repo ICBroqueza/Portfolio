@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHub from '@mui/icons-material/GitHub';
 import { FacebookOutlined, LinkedIn, Menu, Twitter } from '@mui/icons-material';
+import Resume from '../assets/Resume.pdf';
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
           </a>
         </div>
         <button className='mt-10 flex items-center gap-2 hover:gap-4'>
-          <a href='#' className='underline text-2xl'>
+          <a href={Resume} className='underline text-2xl' download>
             RESUME
           </a>
           <svg
